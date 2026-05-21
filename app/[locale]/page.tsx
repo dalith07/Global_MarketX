@@ -1,6 +1,8 @@
 
-import { redirect } from "next/navigation";
-
 export default function Home() {
-  redirect("/en");
+  return (
+    <div >
+      Cooming Soon Global MarketX
+    </div>
+  );
 }
